@@ -1,0 +1,11 @@
+[package]
+name = "guerrilla-trample"
+version = "0.1.0"
+authors = ["ftilde <ftilde@protonmail.com>"]
+
+[profile.dev]
+opt-level = "s"
+
+[dependencies]
+guerrilla="=0.1.2"
+lib = {path = "lib"}
